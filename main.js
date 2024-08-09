@@ -33,12 +33,3 @@ export function findGrade(firstScore, secondScore, thirdScore) {
     
 
 
-findGrade(82, 75, 91)
-findGrade(72, 79, 69)
-findGrade(52, 71, 41)
-findGrade(22, 50, 35)
-findGrade(22, 7, 10)
-findGrade(80, 80, 80)
-findGrade(100, 100, 100)
-findGrade(0, 0, 0)
-findGrade(100, 0, 0)
