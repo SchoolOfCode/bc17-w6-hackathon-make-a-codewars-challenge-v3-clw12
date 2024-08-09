@@ -10,7 +10,7 @@ The letter categories for the average scores are as follows:
 65 <= score < 80: 'B'
 50 <= score < 65: 'C'
 35 <= score < 50: 'D'
-0 <= score < 50: 'E'
+0 <= score < 35: 'E'
 
 All scores will be integers between 0 and 100. There is no need to check for negative 
 numbers or scores greater than 100. 
@@ -20,7 +20,8 @@ A few examples:
 findGrade(63, 27, 74) should return 'C' as the mean (average) score of these
 three numbers is 54.6, which is in the C category.
 
-findGrade(82, 77, 89) should return 'A' as the mean (average) score of these
+findGrade(82, 77, 89) should return 'A' as t
+he mean (average) score of these
 three numbers is 82.6, which is in the A category.
 
 **/
