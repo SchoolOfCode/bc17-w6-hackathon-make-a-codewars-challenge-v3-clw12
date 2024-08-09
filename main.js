@@ -4,7 +4,7 @@
  * passed as arguments into the function and to return the letter associated with
  * the average score.
 
-The letter categories for the scores are as follows:
+The letter categories for the average scores are as follows:
 
 80 <= score <= 100: 'A'
 65 <= score < 80: 'B'
@@ -12,7 +12,7 @@ The letter categories for the scores are as follows:
 35 <= score < 50: 'D'
 0 <= score < 50: 'E'
 
-All scores will integers between 0 and 100. There is no need to check for negative 
+All scores will be integers between 0 and 100. There is no need to check for negative 
 numbers or scores greater than 100. 
 
 A few examples: 
@@ -26,7 +26,10 @@ three numbers is 82.6, which is in the A category.
 **/
 
 export function findGrade(firstScore, secondScore, thirdScore) {
+    /** Please write your code here **/
+   
 }
+
     
 
 
@@ -35,3 +38,7 @@ findGrade(72, 79, 69)
 findGrade(52, 71, 41)
 findGrade(22, 50, 35)
 findGrade(22, 7, 10)
+findGrade(80, 80, 80)
+findGrade(100, 100, 100)
+findGrade(0, 0, 0)
+findGrade(100, 0, 0)
